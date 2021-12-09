@@ -5,37 +5,23 @@
 		<title>
 			japanese from an absolute beginning
 		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<style>
-		body {
-		  margin: 0;
-		  font-family: Arial, Helvetica, sans-serif;
-		}
+		 .forefront-element {
+  		  -webkit-transform: translateZ(999px) scale(.7);
+  		  transform: translateZ(999px) scale(.7);
+  		  z-index: 1;
+  		}
 
-		.topnav {
-		  overflow: hidden;
-  		background-color: #333;
-		}
-	
-		.topnav a {
-		  float: left;
-		  color: #f2f2f2;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
-		  font-size: 17px;
-		}
-		
-		.topnav a:hover {
-		  background-color: #ddd;
-		  color: black;
-		}
+  		.base-element {
+		    -webkit-transform: translateZ(0);
+		    transform: translateZ(0);
+		    z-index: 4;
+		  }
 
-		.topnav a.active {
-		  background-color: #04AA6D;
-		  color: white;
-		}
-</style>
+		  .background-element {
+		    -webkit-transform: translateZ(-999px) scale(2);
+		    transform: translateZ(-999px) scale(2);
+		    z-index: 3;
+		  }
 	</head>
 	<body style="background-image:url(https://i.gifer.com/origin/a3/a3adb2b81fb6fcdf64a32782c1817e7f.gif);background-repeat:repeat;background-position:50%,50%;background-attachment:fixed;">
 		<FONT COLOR=#FFFFFF>
